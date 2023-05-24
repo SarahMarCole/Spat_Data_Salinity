@@ -6,14 +6,14 @@ This project collects 4 years of data to create a visualization to help understa
 
 This data collection comprises of monthly oyster spat monitoring from June 2020 to May 2023 in the Indian River Lagoon (IRL) and St. Lucie Estuary (IRL). Salinity data is publicly available at (https://irlon.org). 
 
-Here, identical data is provided and processed. Which visualization do you prefer while examining the final products? Which would a customer prefer? Why?
+Is salnity driving the differences in spat counts? What other water quality parameters should we test?
 
 ## 📁 Files
-* [master_SpatCounts.xlsx](https://github.com/SarahMarCole/Excel-or-R-Month-Monitoring-Oyster-Spat/blob/main/master_SpatCounts.xlsx) is the excel file contain all data used in the R script, and where excel data analysis and visuualization occur. 
-* [rscriptSPATFigure.R](https://github.com/SarahMarCole/Excel-or-R-Month-Monitoring-Oyster-Spat/blob/main/rscriptSPATFigure.R) is the R script for data analysis and visualization.
+* [master_SpatCounts_deploydate.xlsx](https://github.com/SarahMarCole/Excel-or-R-Month-Monitoring-Oyster-Spat/blob/main/master_SpatCounts.xlsx) is the excel file contain all spat data used in visualization. Formulas to obtain standardized 28-day month and other cleaning occur here.  
+* [Salinity.xlsx](https://github.com/SarahMarCole/Spat_Data_Salinity/blob/main/Salinity.xlsx) is the excel file that contains the salinity and water quality data. This was publicly downloaded from (https://irlon.org). File has been cleaned from original download. 
+* [Spat_script.R](https://github.com/SarahMarCole/Excel-or-R-Month-Monitoring-Oyster-Spat/blob/main/rscriptSPATFigure.R](https://github.com/SarahMarCole/Spat_Data_Salinity/blob/main/Spat_script.R) is the R script for data analysis and visualization.
 
 ## Final Products
-* [Excel Figure.png](https://github.com/SarahMarCole/Excel-or-R-Month-Monitoring-Oyster-Spat/blob/main/Excel%20Figure.png) data visualization created in Excel. 
-* [R figure.png](https://github.com/SarahMarCole/Excel-or-R-Month-Monitoring-Oyster-Spat/blob/main/R%20figure.png) data visualization created in R. 
+* [May 2023.png](https://github.com/SarahMarCole/Spat_Data_Salinity/blob/main/May%202023.png) data visualization created in R. 
 
-### Which is the better visualization? What is your reasoning?
+
